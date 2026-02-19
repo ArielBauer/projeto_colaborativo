@@ -1,22 +1,15 @@
-const baseURL = "https://thegreekmythapi.vercel.app/api";
-const searchBtn = document.getElementById("searchBtn");
 
-searchBtn.addEventListener("click", () => {
-    const godName = document.getElementById("godInput").value.trim().toLowerCase();
-    const url = `${baseURL}/gods/${godName}`;
-
-    fetch(url)
-        .then(response => {
-            if (!response.ok) throw new Error("Não encontrado");
-            return response.json();
-        })
-        .then(data => {
-           
-            document.getElementById("nome").innerText = data.name;       
-            document.getElementById("dominio").innerText = data.domain;  
-            document.getElementById("poderes").innerText = data.powers; 
-            
-           
-        })
-        .catch(err => console.error("Erro ao buscar no Olimpo:", err));
-});
+function showGods(list) {
+  results.innerHTML = "";
+  
+  list.forEach(god => {
+    results.innerHTML += `
+      <div class="card">
+        <img src="https://robohash.org/${god.name}?set=set2" width="120">
+        <h3>${god.name}</h3>
+        <p><strong>Domínio:</strong> ${god.domain}</p>
+        <p><strong>Símbolo:</strong> ${god.symbol}</p>
+      </div>
+    `;
+  });
+}
