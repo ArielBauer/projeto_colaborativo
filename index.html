@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Busca Mitológica</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .card {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <input type="text">
-    <button>Pesquisar deuses</button>
+
+    <h1>Buscar Deus</h1>
+
+    <input type="text" id="godInput" placeholder="Digite o nome do deus">
+    <button id="searchBtn">Buscar</button>
+
+    <div class="card">
+        <img id="imagem" src="" alt="">
+        <h2 id="nome"></h2>
+        <p><strong>Domínio:</strong> <span id="dominio"></span></p>
+        <p><strong>Símbolo:</strong> <span id="poderes"></span></p>
+    </div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
