@@ -34,7 +34,7 @@ searchBtn.addEventListener("click", () => {
                         document.getElementById("imagem").src = wikiData.thumbnail.source;
                     } else {
                         document.getElementById("imagem").src =
-                            "https://via.placeholder.com/200?text=Sem+Imagem";
+                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaIuyhIU_4sTcggWqJptRxBJ6o4YnqXqTr3A&s";
                     }
                 });
 
