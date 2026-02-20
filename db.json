@@ -1,5 +1,5 @@
 {
-  "characters": [
+  "gods": [
     { "id": 1, "name": "Zeus", "domain": "Céu e Trovão", "symbol": "Raio", "category": "Deus" },
     { "id": 2, "name": "Hera", "domain": "Casamento", "symbol": "Pavão", "category": "Deus" },
     { "id": 3, "name": "Poseidon", "domain": "Mares", "symbol": "Tridente", "category": "Deus" },
@@ -113,7 +113,7 @@
     { "id": 99, "name": "Aqueloo", "domain": "Rios", "symbol": "Chifres", "category": "Deus" },
     { "id": 100, "name": "Eolo", "domain": "Tempestades", "symbol": "Nuvem Negra", "category": "Deus" },
 
-    { "id": 101, "name": "Héracles", "domain": "Força e Heroísmo", "symbol": "Clava", "category": "Herói" },
+    { "id": 101, "name": "Hércules", "domain": "Força e Heroísmo", "symbol": "Clava", "category": "Deus" },
     { "id": 102, "name": "Aquiles", "domain": "Guerra e Coragem", "symbol": "Escudo", "category": "Herói" },
     { "id": 103, "name": "Perseu", "domain": "Caçador de Monstros", "symbol": "Cabeça da Medusa", "category": "Herói" },
     { "id": 104, "name": "Teseu", "domain": "Rei de Atenas", "symbol": "Espada", "category": "Herói" },
@@ -122,12 +122,11 @@
     { "id": 107, "name": "Atalanta", "domain": "Caça e Velocidade", "symbol": "Arco", "category": "Herói" },
     { "id": 108, "name": "Édipo", "domain": "Destino Trágico", "symbol": "Esfinge", "category": "Herói" },
     { "id": 109, "name": "Belerofonte", "domain": "Domador de Pégaso", "symbol": "Lança", "category": "Herói" },
-    
+
     { "id": 110, "name": "Pégaso", "domain": "Cavalo Alado", "symbol": "Asas", "category": "Monstro Mitológico" },
     { "id": 111, "name": "Minotauro", "domain": "Labirinto", "symbol": "Machado Duplo", "category": "Monstro Mitológico" },
     { "id": 112, "name": "Medusa", "domain": "Olhar Petrificante", "symbol": "Serpentes", "category": "Monstro Mitológico" },
     { "id": 113, "name": "Hidra", "domain": "Regeneração", "symbol": "Múltiplas Cabeças", "category": "Monstro Mitológico" },
-    { "id": 114, "name": "Quimera", "domain": "Criatura Híbrida", "symbol": "Fogo", "category": "Monstro Mitológico" },
-    { "id": 115, "name": "Ciclope", "domain": "Gigante de Um Olho", "symbol": "Olho Único", "category": "Monstro Mitológico" }
+    { "id": 114, "name": "Quimera", "domain": "Criatura Híbrida", "symbol": "Fogo", "category": "Monstro Mitológico" }
   ]
 }

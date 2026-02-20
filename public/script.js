@@ -33,6 +33,7 @@ searchBtn.addEventListener("click", () => {
             document.getElementById("nome").innerText = god.name;
             document.getElementById("dominio").innerText = god.domain;
             document.getElementById("poderes").innerText = god.symbol;
+            document.getElementById("categoria").innerText = god.category;
 
             // 🔥 BUSCA IMAGEM NA WIKIPEDIA AUTOMATICAMENTE
             return fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${god.name}`)
